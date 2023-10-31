@@ -166,12 +166,4 @@ components:
   properties: {}
   name: flow_panel_4
   layout_properties: {grid_position: 'NCEQNK,QVUGYJ'}
-- type: Label
-  properties: {}
-  name: label_7
-  layout_properties: {grid_position: 'FIHNMP,NSQAWX'}
-- type: RichText
-  properties: {}
-  name: rich_text_2
-  layout_properties: {grid_position: 'JBEWST,JILDDC'}
 is_package: true

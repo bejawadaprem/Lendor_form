@@ -77,7 +77,7 @@ components:
 - type: Button
   properties: {role: null, align: right, tooltip: '', border: '', enabled: true, foreground: '',
     visible: true, text: Prev, font_size: null, font: '', spacing_above: small, icon_align: left,
-    spacing_below: small, italic: false, background: '', bold: true, underline: false,
+    spacing_below: small, italic: false, background: '#0876E8', bold: true, underline: false,
     icon: 'fa:angle-double-left'}
   name: button_1
   layout_properties: {grid_position: 'XKCQUV,LRXMOT'}
@@ -85,7 +85,7 @@ components:
 - type: Button
   properties: {role: null, align: left, tooltip: '', border: '', enabled: true, foreground: '',
     visible: true, text: Next, font_size: null, font: '', spacing_above: small, icon_align: left,
-    spacing_below: small, italic: false, background: '', bold: true, underline: false,
+    spacing_below: small, italic: false, background: '#0876E8', bold: true, underline: false,
     icon: 'fa:angle-double-right'}
   name: button_2
   layout_properties: {grid_position: 'XKCQUV,DCWHSG'}

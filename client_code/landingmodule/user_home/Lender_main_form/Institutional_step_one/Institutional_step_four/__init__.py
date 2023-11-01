@@ -15,13 +15,15 @@ class Institutional_step_four(Institutional_step_fourTemplate):
 
     # Any code you write here will run before the form opens.
 
-  def link_1_click(self, **event_args):
-    open_form('landingmodule.user_home.Lender_main_form.Institutional_step_one.Institutional_step_three')
-    """This method is called when the link is clicked"""
-
+  
   def button_1_click(self, **event_args):
+    open_form('landingmodule.user_home.Lender_main_form.Institutional_step_one.Institutional_step_three')
+    """This method is called when the button is clicked"""
+
+  def button_2_click(self, **event_args):
     open_form('landingmodule.user_home.Lender_main_form.Institutional_step_one.Institutional_step_five')
     """This method is called when the button is clicked"""
+    
     
 
     

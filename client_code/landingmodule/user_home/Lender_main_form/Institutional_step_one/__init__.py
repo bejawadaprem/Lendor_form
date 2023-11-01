@@ -16,7 +16,12 @@ class Institutional_step_one(Institutional_step_oneTemplate):
     # Any code you write here will run before the form opens.
 
   def button_1_click(self, **event_args):
-    open_form('landingmodule.user_home.Lender_main_form.Institutional_step_one.Institutional_step_two')
+    open_form('landingmodule.user_home.Lender_main_form')
     """This method is called when the button is clicked"""
+
+  def button_2_show(self, **event_args):
+    open_form('landingmodule.user_home.Lender_main_form.Institutional_step_one.Institutional_step_two')
+    """This method is called when the Button is shown on the screen"""
+    
     
 

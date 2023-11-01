@@ -69,5 +69,5 @@ components:
     icon_align: right, align: left}
   type: Button
   layout_properties: {grid_position: 'HWZQVV,CMULTE'}
-  event_bindings: {show: button_2_show}
+  event_bindings: {show: button_2_show, click: button_2_click}
 is_package: true
